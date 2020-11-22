@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="popUp.js"></script>
+</head>
+<body>
+<!--以下两种打开链接网站方式都会在禁用js后链接失效-->
+<!--伪代码协议-->
+    <a href="javascript:popUp('http://www.example.com')">伪代码协议</a><br>
+<!--事件处理器-->
+    <a href="#" onclick="popUp('http://www.example.com'); return false;">事件处理器</a><br>
+<!--但是这个不会,且能被searchbot发现-->
+    <a href="http://www.example.com" onclick="popUp(this.href); return false;">href属性值为实际url的事件处理器</a>
+</body>
+</html>

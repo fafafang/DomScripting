@@ -1,0 +1,10 @@
+body {
+    font-family: Helvetica, Arial, Serif;
+    font-size: 10pt;
+}
+/*取消默认效果，给自定义效果做准备*/
+abbr {
+    text-decoration: none;
+    border: 0;
+    font-style: normal;
+}

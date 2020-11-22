@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charSet="utf-8">
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="styles/layout.css" media="screen">
+</head>
+<body>
+    <h1>Snapshots</h1>
+    <ul>
+        <li><a href="images/pic1.jpg" title="pic1" onclick="showPic(this); return false;">pic1</a></li>
+        <li><a href="images/pic2.jpg" title="pic2" onclick="showPic(this); return false;">pic2</a></li>
+        <li><a href="images/pic3.jpg" title="pic3" onclick="showPic(this); return false;">pic3</a></li>
+        <li><a href="images/pic4.jpg" title="pic4" onclick="showPic(this); return false;">pic4</a></li>
+    </ul>
+    <img id="placeholder" src="images/pic0.jpg" width="400" height="300">
+    <p id="description">Choose an image.</p>
+    <script src="scripts/showPic.js"></script>
+</body>
+</html>

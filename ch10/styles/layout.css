@@ -1,0 +1,18 @@
+/*
+    # overflow: 内容溢出后的处理方式
+    - visible
+    - hidden
+    - scroll
+    = auto: 如果没有溢出就没有滚动条
+    # position: relative;
+    这样使得绝对定位的子元素(0,0)位置是父元素左上角
+ */
+#slideshow {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    overflow: hidden;
+}
+#preview {
+    position: absolute;
+}

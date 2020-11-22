@@ -1,0 +1,122 @@
+section, header, article, nav {
+    display: block;
+}
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    margin: 1em 10%;
+    background-image: url('../images/background.jpg');
+    background-attachment: fixed;
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    max-width: 80em;
+}
+header {
+    background-position: top right;
+    background-repeat: no-repeat;
+    border-width: .1em;
+    border-style: solid;
+    border-bottom-width: 0;
+}
+header nav {
+    border-width: .1em;
+    border-style: solid;
+    border-top-width: 0;
+    padding-left: 10%;
+}
+header nav ul {
+    width: 100%;
+    overflow: hidden;
+    border-left-width: .1em;
+    border-left-style: solid;
+}
+header nav li {
+    display: inline;
+}
+header nav li a {
+    display: block;
+    float: left;
+    padding: .5em 2em;
+    border-right: .1em solid;
+}
+article {
+    border-width: .1em;
+    border-style: solid;
+    border-top-width: 0;
+    padding: 2em 10%;
+    line-height: 1.8em;
+}
+article img {
+    border-width: .1em;
+    border-style: solid;
+    outline-width: .1em;
+    outline-style: solid;
+}
+#home header {
+    background-image: url('../images/home.png');
+}
+#about header {
+    background-image: url('../images/about.png');
+}
+#episodes header {
+    background-image: url('../images/episodes.png');
+}
+#photos header {
+    background-image: url('../images/photos.png');
+}
+#contact header {
+    background-image: url('../images/contact.png');
+}
+#slideshow {
+    width: 300px;
+    height: 171px;
+    position: relative;
+    overflow: hidden;
+}
+#preview {
+    position: absolute;
+    border-width: 0;
+    /* outline不占据空间，随着元素被focus而出现，主要用于链接、表单元素 */
+    /*outline-width: 0;*/
+}
+img {
+    display: block;
+    clear: both;
+}
+#imageGallery {
+    list-style: none;
+}
+#imageGallery li {
+    float: left;
+    padding: 1em;
+    list-style: inline;
+}
+td {
+    padding: .5em 3em;
+}
+dl {
+    overflow: hidden;
+}
+dt {
+    float: left;
+}
+dd {
+    float: left;
+}
+label {
+    display: block;
+}
+fieldset {
+    border: 0;
+}
+.photoFrame {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.photoFrame img {
+    width: 400px;
+    height: 240px;
+    margin: auto;
+}

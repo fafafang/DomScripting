@@ -1,0 +1,37 @@
+body {
+    font-family: Helvetica, Arial, Serif;
+    color: #333;
+    background-color: #cccccc;
+    margin: 1em 10%;
+}
+h1 {
+    color: #333;
+    background-color: transparent;
+}
+a {
+    color: #c60;
+    background-color: transparent;
+    font-weight: bold;
+    text-decoration: none;
+}
+ul {
+    padding: 0;
+}
+li {
+    float: left;
+    padding: 1em;
+    list-style: none;/*取消ul点和竖行排列*/
+}
+img {
+    display: block;
+    clear: both;/*clear float*/
+}
+#imageGallery {
+    list-style: none;
+}
+#imageGallery li {
+    list-style: inline;
+}
+#imageGallery li a img {
+    border: 0;
+}
